@@ -1,5 +1,6 @@
 payload:
   # 一些无需验证地区的 HOST
+
   # > Disney+
   - DOMAIN-SUFFIX,media.dssott.com
   - DOMAIN-SUFFIX,prod.dssedge.com
@@ -15,8 +16,8 @@ payload:
 
   # > Peacock TV
   # TV 端需走 US
-  # DOMAIN-SUFFIX,cdn.peacocktv.com
-  
+
+
   # > SkyShowtime
   - DOMAIN-SUFFIX,cssott.com
   - DOMAIN,g002-vod-eu-cmaf-prd-cf.pcdn01.cssott.com

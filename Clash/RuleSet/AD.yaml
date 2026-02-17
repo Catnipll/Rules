@@ -15,7 +15,10 @@ payload:
   # > 安全浏览限制解除
   - DOMAIN,lookup.api.bsb.baidu.com
   - DOMAIN-SUFFIX,u3.ucweb.com
-  - DOMAIN-KEYWORD,safebrowsing.
+  # DOMAIN-KEYWORD,safebrowsing. 会影响 Pixel VPN
+
+  # > 农行防代理检测
+  - DOMAIN,msmp.abchina.com.cn
 
   # > Amap
   - DOMAIN,amap-aos-info-nogw.amap.com
@@ -64,7 +67,6 @@ payload:
   - DOMAIN-KEYWORD,-be-pack-sign.pglstatp-toutiao.com
   - DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com
   - DOMAIN-KEYWORD,-fe-tos.pglstatp-toutiao.com
-  - DOMAIN-KEYWORD,-sign.douyinpic.com
   - DOMAIN-KEYWORD,api-access.pangolin-sdk-toutiao
   - DOMAIN-KEYWORD,asiad.byteactivity
   - DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao
@@ -72,12 +74,11 @@ payload:
   # > Caiyun Weather
   - DOMAIN,ad.cyapi.cn
 
-  # > ChatGPT
-  - DOMAIN,o33249.ingest.sentry.io
-  
   # > Disney+ with Hulu
   - DOMAIN-SUFFIX,disneyadvertising.com
-  # DOMAIN-SUFFIX,ads.digital.disneyadvertising.com
+
+  # > ChatGPT
+  - DOMAIN,o33249.ingest.sentry.io
 
   # > Google
   - DOMAIN,adservice.google.com
@@ -112,6 +113,11 @@ payload:
   - DOMAIN,xlog.jd.com
   - IP-CIDR,101.124.19.122/32
   - IP-CIDR6,2402:db40:5100:1011::5/128
+
+  # > Keep
+  - DOMAIN,httpdns.n.netease.com
+  - DOMAIN,httpdns.calorietech.com
+  - DOMAIN,hc-ssp.sm.cn
 
   # > Meituan
   - DOMAIN,al-log.d.meituan.net
@@ -193,7 +199,7 @@ payload:
 
   # > TVB
   - DOMAIN,adstvb.akamaized.net
-  
+
   # > TVer
   - DOMAIN,fod-cm-ad-v.webcdn.stream.ne.jp
 
@@ -221,7 +227,6 @@ payload:
   - DOMAIN,sdkaction.biz.weibo.com
   - DOMAIN,sdkclick.biz.weibo.com
   - DOMAIN,sdkmonitor.biz.weibo.com
-  - DOMAIN,bootpreload.uve.weibo.com
   - DOMAIN-SUFFIX,biz.weibo.com
   - IP-CIDR,39.97.130.51/32
   - IP-CIDR,39.97.128.148/32
@@ -258,11 +263,11 @@ payload:
   - IP-CIDR,118.89.204.198/32
   - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 
-  - # > 10000
+  # > 10000
   - DOMAIN,ad.21cn.com
   - DOMAIN,ad.k.21cn.com
   - DOMAIN,admarket.21cn.com
   - DOMAIN,adshows.21cn.com
 
-  - # > 10010
+  # > 10010
   - DOMAIN-SUFFIX,m1.ad.10010.com

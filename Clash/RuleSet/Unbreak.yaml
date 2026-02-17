@@ -1,12 +1,10 @@
 payload:
-  # Unbreak
-  # > Direct
+  # > Unbreak
   - DOMAIN,app.adjust.com
   - DOMAIN,app.appsflyer.com
   - DOMAIN,bdtj.tagtic.cn
 
   # > CNTV
-  # DOMAIN,msg-intl.qy.net
   - DOMAIN-SUFFIX,cupid.iqiyi.com
   - DOMAIN,push.m.youku.com
   - DOMAIN,un-acs.youku.com
@@ -47,18 +45,20 @@ payload:
   - DOMAIN,alt6-mtalk.google.com
   - DOMAIN,alt7-mtalk.google.com
   - DOMAIN,alt8-mtalk.google.com
-  
+
   # > Samsung Galaxy App Store
   - DOMAIN-SUFFIX,galaxyappstore.com
   - DOMAIN-SUFFIX,samsungapps.com
-  # DOMAIN-SUFFIX,samsungcloud.com
 
   # > Windows NTP
   - DOMAIN,time.windows.com
-  
+
   # > Marriott
   - DOMAIN-SUFFIX,marriottwifi.com
   - DOMAIN,portal.linkbroad.com
 
- # > ziniao
- - PROCESS-NAME-REGEX,.*ziniao.*
+  # > BOC HK
+  - DOMAIN-SUFFIX,bochk.com
+
+  # > ziniao
+  - PROCESS-NAME,*ziniao*

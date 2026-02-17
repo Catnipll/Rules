@@ -8,6 +8,7 @@ payload:
   - DOMAIN,cp4.cloudflare.com
   - DOMAIN,guzzoni.apple.com
   - DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN-SUFFIX,gateway.icloud.com
 
   # Anthropic
   # > Claude
@@ -17,6 +18,8 @@ payload:
 
   # OpenAI
   # > ChatGPT
+  - AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
+  - AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-),(DOMAIN-SUFFIX,webpubsub.azure.com))
   - DOMAIN,chatgpt.livekit.cloud
   - DOMAIN,host.livekit.cloud
   - DOMAIN,turn.livekit.cloud
@@ -69,9 +72,6 @@ payload:
   # > Search Labs
   - DOMAIN-KEYWORD,labs.google
 
-  # Groq
-  - DOMAIN-SUFFIX,groq.com
-
   # JetBrains AI
   - DOMAIN-SUFFIX,grazie.ai
 
@@ -87,6 +87,10 @@ payload:
   # > GitHub Copilot
   - DOMAIN-SUFFIX,githubcopilot.com
 
+  # NVIDIA
+  # > Groq
+  - DOMAIN-SUFFIX,groq.com
+
   # Perplexity
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,pplx.ai
@@ -98,14 +102,11 @@ payload:
 
   # ByteDance
   # > Doubao Dola
-  - PROCESS-NAME,com.larus.wolf
   - DOMAIN-SUFFIX,dola.com
   - DOMAIN-SUFFIX,cici.com
   - DOMAIN-SUFFIX,ciciai.com
-  - DOMAIN-WILDCARD,abtest*.byteoversea.com
   - DOMAIN,abtestvm-sg.bytedance.com
-  - IP-CIDR,23.202.34.0/24,no-resolve
-  - IP-CIDR,71.18.222.0/24,no-resolve
+  - DOMAIN-WILDCARD,abtest*.byteoversea.com
 
   # Affinity
   - DOMAIN,d3ssuo6fbvr.cloudfront.net

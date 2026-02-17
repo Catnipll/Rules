@@ -1,6 +1,6 @@
 payload:
-  # > American Express   
-  - DOMAIN-SUFFIX,americanexpress.com   
+  # > American Express
+  - DOMAIN-SUFFIX,americanexpress.com
   - DOMAIN-SUFFIX,amextravel.com
   - DOMAIN-SUFFIX,membershiprewards.com
   - DOMAIN-SUFFIX,aexp.com
@@ -12,10 +12,15 @@ payload:
   - DOMAIN-SUFFIX,chasepay.com
   - DOMAIN-SUFFIX,jpmorganchase.com
   - DOMAIN-SUFFIX,jpmorgan.com
-  
+
+  # > IBKR
+  - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,ibllc.com
+
   # > N26
   - DOMAIN-SUFFIX,n26.com
   - DOMAIN-SUFFIX,tech26.de
 
-# > bonify
+  # > bonify
   - DOMAIN-SUFFIX,bonify.de

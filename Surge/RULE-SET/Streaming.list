@@ -112,8 +112,12 @@ DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 USER-AGENT,HBOMAX*
 USER-AGENT,Max*
 PROCESS-NAME,com.wbd.stream
-DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,discomax.com
 
 # > Hulu
@@ -216,20 +220,6 @@ DOMAIN-SUFFIX,spotifynewsroom.jp
 DOMAIN-SUFFIX,spotilocal.com
 DOMAIN-SUFFIX,tospotify.com
 
-# > Stan
-DOMAIN-SUFFIX,stan.com.au
-DOMAIN,aws.stan.video
-// DOMAIN,streamcoimg-a.akamaihd.net
-
-# > Star+
-USER-AGENT,Star+*
-DOMAIN-SUFFIX,starplus.com
-DOMAIN-SUFFIX,starott.com
-DOMAIN,star.api.edge.bamgrid.com
-DOMAIN,star.connections.edge.bamgrid.com
-DOMAIN,star.content.edge.bamgrid.com
-DOMAIN,star.playback.edge.bamgrid.com
-
 # > TVBAnywhere
 DOMAIN-SUFFIX,tvb.com
 DOMAIN-KEYWORD,tvbanywhere
@@ -246,7 +236,7 @@ DOMAIN-SUFFIX,unext.jp
 DOMAIN-SUFFIX,nxtv.jp
 // DOMAIN,streamd01ca-nxtv-jp.akamaized.net
 DOMAIN,us-central1-u-next-apps.cloudfunctions.net
-  
+
 # > YouTube
 USER-AGENT,*YouTube*
 USER-AGENT,*youtube*
